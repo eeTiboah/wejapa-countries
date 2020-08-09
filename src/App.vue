@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div>
+      <app-countries></app-countries>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Countries from './components/Countries.vue';
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    'app-countries': Countries
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body{
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body{
+    font-size: 1.5em;
 }
 </style>
