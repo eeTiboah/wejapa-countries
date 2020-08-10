@@ -17,7 +17,7 @@ export default {
 body{
   margin: 0px;
   /* background-image: linear-gradient(to bottom right, #d3f8e2, #a9def9); */
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 550;
   font-size: 1.3em;
 

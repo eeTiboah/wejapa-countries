@@ -156,8 +156,8 @@ export default {
     border: 1px solid;
     background-color: rgb(226, 64, 64);
     color: white;
-    width: 20em;
-    height: 4.5em;
+    width: 15em;
+    height: 6em;
     padding: 20px;
     border-radius: 6px;
     margin-top: 10px;
