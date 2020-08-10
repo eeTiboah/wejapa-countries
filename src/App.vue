@@ -16,13 +16,15 @@ export default {
 <style>
 body{
   margin: 0px;
+  /* background-image: linear-gradient(to bottom right, #d3f8e2, #a9def9); */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 550;
+  font-size: 1.3em;
+
 }
 * {
   box-sizing: border-box;
   margin: 0px;
 }
 
-body{
-    font-size: 1.5em;
-}
 </style>
