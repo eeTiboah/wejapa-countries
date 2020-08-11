@@ -66,7 +66,7 @@ export default {
                 return response.json()
             }
         ).then(data=>{
-            this.countries = data.slice(0, 50);
+            this.countries = data;
         })    
     },
     methods: {
